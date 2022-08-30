@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Index */
+body.bg{
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logIn{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo{
+    translate: 0px 75px;
+    margin: auto;
+    justify-items: center;
+    height: 500px;
+    width: 500px;
+}
+.barraUsuario{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+}
+.barraUsuario a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.barraUsuario input{
+    height: 60px;
+    width: 150px;
+    color: white;
+    background-color: black;
+    border-radius: 45%;
+    transition: all 1s;
+}
+.barraUsuario input:hover{
+    color: black;
+    background-color: white;
+    height: 80px;
+    width: 175px;
+}
+.centralImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footerContainer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 400px;
+}
+.footerLinks{
+    display: grid;
+    align-content: space-around;
+}
+.footerConta{
+    display: grid;
+    grid-template-columns: 200px 200px;
+}
+.footer{
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: orange;
+}
+
+/* Lista de deseados */
+
+.containerLista{
+    display: grid;
+}
+.containerLista .lista{
+    display: grid;
+    width: 600px;
+    height: auto;
+    gap: 20px;
+    border: black 1px solid;
+}
+.lista thead th{
+    text-align: center;
+}
+.lista tr td img{
+    height: 100px;
+    width: 75px;
+}
+tr td{
+    text-align: center;
+}
+
+/* Libreria */
+
+.containerLibreria{
+    display: grid;
+    grid-template-rows: 50px 100px 50px 100px 50px 100px;
+    gap: 10px;
+    border: 3px black solid;
+}
+.containerLibreria .libreriaSteam{
+    border-bottom: 1px black solid;
+    align-self: center;
+    padding: 50px;
+    padding-top: 10px;
+}
+.containerLibreria .libreriaPlay{
+    border-bottom: 1px black solid;
+    align-self: center;
+    padding: 50px;
+    padding-top: 10px;
+}
+.containerLibreria .libreriaOrigin{
+    align-self: center;
+    padding: 50px;
+    padding-top: 10px;
+}
+@media (479px <= width <= 767px) {
+    .barraUsuario{
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: 100px 100px;
+        grid-template-rows: 1fr;
+    }
+    .logo{
+        margin: 0px auto;
+        justify-items: center;
+    }
+}
+
