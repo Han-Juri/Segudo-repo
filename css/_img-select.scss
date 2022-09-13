@@ -1,0 +1,11 @@
+@import 'vars';
+img{
+    height: $imgHeight;
+    width: $imgWidth;
+    align-self: center;
+}
+select{
+    height: $selectHeight;
+    width: $selectWidth;
+    align-self: center;
+}   

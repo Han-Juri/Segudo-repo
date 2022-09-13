@@ -4,83 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/libreria.css">
     <link rel="shortcut icon" href="../img/senuas-saga-hellblade-ii_k8vd.128.webp">
     <title>Libreria</title>
 </head>
-<body background="./img/fondo-transparente-videojuegos_6997-1230.jpg">
+<body>
 <header>
-    <div class="barraUsuario">
-        <nav>
-            <ul>
-                <li> <a href="../pages/libreria.html">Libreria</a></li>
-                <li> <a href="../pages/ofertas.html">Ofertas</a></li>
-                <li> <a href="../pages/listadedeseados.html">Lista de deseados</a></li>
-                <li> <a href="../pages/proximoslanzamientos.html">Lanzamientos</a></li>
-            </ul>
+    <div id="bu">
+        <nav class="barraUsuario">  
+            <a href="../index.html"><input type="button" value="Pág. de inicio"></a>
+            <a href="./pages/listadedeseados.html"><input type="button" value="List. de dedeados"></a>
+            <a href="./pages/ofertas.html"><input type="button" value="Ofertas"></a>
+            <a href="./pages/proximoslanzamientos.html"><input type="button" value="Prox lanzamientos"></a>
         </nav>    
     </div>
 </header>
-<h1>Elige la consola que quieras utilizar y su juego</h1>
+<h1 class="h1lib">Elige la consola que quieras utilizar y su juego</h1>
 <nav>
-    <fieldset>
-      <legend>Steam</legend>  
-        <select name="steam" id="steam">
-            <option value="half-life">Half-Life</option>
-            <option value="cs">Counter-Strike</option>
-            <option value="dota">Dota 2</option>
-        </select>
-    </fieldset>    
-    <fieldset>
-     <legend>Play Station</legend>   
-        <select name="playStation" id="playStation">
-            <option value="horizon">Horizon Zero Dawn</option>
-            <option value="gow">God of War</option>
-            <option value="spiderMan">Spider-Man</option>
-        </select>
-    </fieldset>    
-    <fieldset>
-     <legend>Origin</legend>   
-        <select name="origin" id="origin">
-            <option value="pvz">Plantas Vs. Zombies</option>
-            <option value="massEffect">Mass Effect</option>
-            <option value="alice">Alice: Madness returns</option>
-        </select>    
-    </fieldset>   
-    <br>
-    <br>
     <div class="containerLibreria">
-        <h2>Steam</h2>
         <div class="libreriaSteam">
+            <img src="../img/steam-logo.png" alt="steam">
             <select name="steam" id="steam">
                 <option value="half-life">Half-Life</option>
                 <option value="cs">Counter-Strike</option>
-                <option value="dota">Dota 2</option>
+                <option value="portal">Portal 2</option>
             </select>
         </div>
-        <h2>Play Station</h2>
         <div class="libreriaPlay">
             <select name="playStation" id="playStation">
                 <option value="horizon">Horizon Zero Dawn</option>
                 <option value="gow">God of War</option>
                 <option value="spiderMan">Spider-Man</option>
             </select>
+            <img src="../img/playstation-logo.png" alt="playstation">
         </div>
-        <h2>Origin</h2>
         <div class="libreriaOrigin">
+            <img src="../img/origin-logo.png" alt="origin">
             <select name="origin" id="origin">
                 <option value="pvz">Plantas Vs. Zombies</option>
                 <option value="massEffect">Mass Effect</option>
                 <option value="alice">Alice: Madness returns</option>
             </select>
         </div>
+        <div class="libreriaGog">
+            <select name="gog" id="gog">
+                <option value="witcher">The Witcher</option>
+                <option value="throneBreacker">Throne Breacker</option>
+                <option value="cyberpunk">Cyberpunk 2077</option>
+            </select>
+            <img src="../img/gog-logo.png" alt="gog">
+        </div>
+        <div class="libreriaEpicgames">
+            <img src="../img/epicgames-logo.png" alt="epicgames">
+            <select name="epicgames" id="epicgames">
+                <option value="fortnite">Fortnite</option>
+                <option value="borderlands">Borderlands</option>
+                <option value="pathless">The Pathless</option>
+            </select>
+        </div>
+        <div class="libreriaXbox">
+            <select name="xbox" id="xbox">
+                <option value="halo">Halo</option>
+                <option value="forza">Forza Horizon 5</option>
+                <option value="cod">Call of Duty</option>
+            </select>
+            <img src="../img/Xbox_logo_2012_cropped.svg.png" alt="xbox">
+        </div>
     </div> 
 </nav>
-<footer class="footer">
-    <a href="">Soporte tecnico</a>
-    <a href="">Contacto</a>
-    <a href="">Reembolsos</a>
-    <a href="">Trabaja con nosotros</a>    
-</footer>    
+<footer class="footerContainer"> 
+    <div class="footerLinks">
+        <a class="footer" href="">Soporte tecnico</a>
+        <a class="footer" href="">Contacto</a>
+        <a class="footer" href="">Reembolsos</a>
+        <a class="footer" href="">Trabaja con nosotros</a>
+    </div>
+    <div class="footerConta">
+        <img class="footer" src="../img/footer1.png" alt="twitter">
+        <img class="footer" src="../img/footer2.png" alt="facebook">
+        <img class="footer" src="../img/footer3.png" alt="instagram">
+        <img class="footer" src="../img/footer4.png" alt="whatsapp">
+    </div>
+</footer>        
 </body>
 </html>

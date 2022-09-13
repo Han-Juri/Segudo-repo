@@ -6,39 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="shortcut icon" href="../img/senuas-saga-hellblade-ii_k8vd.128.webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <title>Ofertas</title>
 </head>
-<body background="./img/fondo-transparente-videojuegos_6997-1230.jpg">
+<body class="bofertas">
 <header>
-    <div class="barraUsuario">
-        <nav>
-            <ul>
-                <li> <a href="../pages/libreria.html">Libreria</a></li>
-                <li> <a href="../pages/ofertas.html">Ofertas</a></li>
-                <li> <a href="../pages/listadedeseados.html">Lista de deseados</a></li>
-                <li> <a href="../pages/proximoslanzamientos.html">Lanzamientos</a></li>
-            </ul>
+    <div id="bu">
+        <nav class="barraUsuario">  
+            <a href="../index.html"><input type="button" value="Pág. de inicio"></a>
+            <a href="./pages/libreria.html"><input type="button" value="Libreria"></a>
+            <a href="./pages/listadedeseados.html"><input type="button" value="List. de dedeados"></a>
+            <a href="./pages/proximoslanzamientos.html"><input type="button" value="Prox lanzamientos"></a>
         </nav>    
     </div>
 </header>
 <nav>
-    <fieldset>    
-   <legend>Ofertas</legend>
-     <p>Steam</p>
-        <a href="https://store.steampowered.com/?l=spanish"><img src="../img/RebajasSteam.jpg" alt="Steam"></a>
-   <br>
-    <p>Play Station</p>
-        <a href="https://store.playstation.com/es-ar/pages/latest/"><img src="../img/ofertas-juegos-playstation_1440x810_wmk.jpg" alt="Play Station"></a>
-   <br>
-    <p>Origin</p>
-        <a href="https://www.origin.com/arg/es-es/store/deals"><img src="../img/Ofertas-primavera-2019.jpg" alt="Origin"></a>
-    </fieldset> 
+    <h1 class="h1ofe animate__animated animate__backInDown" >Ofertas</h1>
+    <div class="ofertasContainer">
+        <div class="ofertasItems">
+            <a class="animate__animated animate__rotateInDownLeft" href="https://store.steampowered.com/?l=spanish"><img src="../img/steam-logo.png" alt="steam"></a>
+            <p class="animate__animated animate__fadeIn">Ofertas proximo 25 de octubre</p>
+        </div>        
+        <div class="ofertasItems">
+            <a class="animate__animated animate__slideInDown" href="https://www.playstation.com/es-ar/"><img src="../img/playstation-logo.png" alt="playstation"></a> 
+            <p class="animate__animated animate__fadeIn">Ofertas del 15% al 70%</p>
+        </div>        
+        <div class="ofertasItems">
+            <a class="animate__animated animate__rotateInDownRight" href="https://www.origin.com/arg/es-es/store"><img src="../img/origin-logo.png" alt="origin"></a>
+            <p class="animate__animated animate__fadeIn">Ofertas proximo 3 de febrero</p>
+        </div>        
+        <div class="ofertasItems">
+            <a class="animate__animated animate__rotateInUpLeft" href="https://www.xbox.com/es-AR"><img src="../img/Xbox_logo_2012_cropped.svg.png" alt="xbox"></a>
+            <p class="animate__animated animate__fadeIn">Ofertas del 33% al 88%</p>
+        </div>        
+        <div class="ofertasItems">
+            <a class="animate__animated animate__slideInUp" href="https://www.epicgames.com/site/es-ES/home"><img src="../img/epicgames-logo.png" alt="epicgames"></a>
+            <p class="animate__animated animate__fadeIn">Ofertas del 10% al 50%</p>
+        </div>        
+        <div class="ofertasItems">
+            <a class="animate__animated animate__rotateInUpRight" href="https://www.gog.com/"><img src="../img/gog-logo.png" alt="gog"></a>
+            <p class="animate__animated animate__fadeIn">Ofertas proximo 13 de agosto</p>
+        </div>        
+    </div>           
 </nav>
-<footer class="footer">
-    <a href="">Soporte tecnico</a>
-    <a href="">Contacto</a>
-    <a href="">Reembolsos</a>
-    <a href="">Trabaja con nosotros</a>    
-</footer>          
+<footer class="footerContainer"> 
+    <div class="footerLinks">
+        <a class="footer" href="">Soporte tecnico</a>
+        <a class="footer" href="">Contacto</a>
+        <a class="footer" href="">Reembolsos</a>
+        <a class="footer" href="">Trabaja con nosotros</a>
+    </div>
+    <div class="footerConta">
+        <img class="footer" src="../img/footer1.png" alt="twitter">
+        <img class="footer" src="../img/footer2.png" alt="facebook">
+        <img class="footer" src="../img/footer3.png" alt="instagram">
+        <img class="footer" src="../img/footer4.png" alt="whatsapp">
+    </div>
+</footer>       
 </body>
 </html>

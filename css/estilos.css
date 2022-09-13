@@ -8,13 +8,19 @@ body.bg{
     background-image: url(../img/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    object-fit: cover;
 }
-
 .logIn{
     position: absolute;
     top: 0px;
     right: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logIn input{
+    color: white;
+    background-color: black;
+    width: 80px;
+    height: 30px;
 }
 .logo{
     translate: 0px 75px;
@@ -88,7 +94,18 @@ body.text-center{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+#pI{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#pI input{
+    color: white;
+    background-color: black;
+    width: 120px;
+    height: 30px;
+}
 .form-signin {
     max-width: 330px;
     padding: 15px;
@@ -133,31 +150,43 @@ tr td{
     text-align: center;
 }
 
-/* Libreria */
+/* Ofertas */
 
-.containerLibreria{
+.bofertas{
+    background-image: url(../img/ofertas-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h1ofe{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+.ofertasContainer{
     display: grid;
-    grid-template-rows: 50px 100px 50px 100px 50px 100px;
-    gap: 10px;
-    border: 3px black solid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    justify-items: center;
+    gap: 50px;
+    padding-top: 75px;
 }
-.containerLibreria .libreriaSteam{
-    border-bottom: 1px black solid;
+.ofertasItems{
+    display: grid;
+    grid-template-rows: 200px auto;
+}
+.ofertasItems img{
+    height: 200px;
+    width: 200px;
+}
+.ofertasItems p{
+    color: white;
+    text-align: center;
     align-self: center;
-    padding: 50px;
-    padding-top: 10px;
+    justify-self: center;
 }
-.containerLibreria .libreriaPlay{
-    border-bottom: 1px black solid;
-    align-self: center;
-    padding: 50px;
-    padding-top: 10px;
-}
-.containerLibreria .libreriaOrigin{
-    align-self: center;
-    padding: 50px;
-    padding-top: 10px;
-}
+
+/* Responsive */
+
 @media (479px <= width <= 767px) {
     .barraUsuario{
         margin: 0px auto;

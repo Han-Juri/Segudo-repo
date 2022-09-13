@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import 'vars';
+.barraUsuario{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+        a{
+            text-decoration: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        input{
+            height: 60px;
+            width: 150px;
+            color: white;
+            background-color: black;
+            border-radius: 45%;
+            transition: all 1s;
+        }
+        input:hover{
+            color: black;
+            background-color: white;
+            height: 80px;
+            width: 175px;
+        }
+}
+body{
+    background: {
+        image: url(../img/libreriaFondos/fondo-libreria.jpg);
+        repeat: $backRepeat;
+        size: $backSize;
+    }
+}
+h1{
+    color: black;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 3rem;
+}    
+.containerLibreria{
+    display: grid;
+    grid-template-columns: 750px 750px;
+    grid-template-rows: 500px 500px 500px;
+    justify-content: center;
+    gap: 150px;
+    
+        .libreriaSteam{
+            background: {
+                image: url(../img/libreriaFondos/portal2jpg.jpg);
+                repeat: $backRepeat;
+                size: $backSize;
+            }
+            display: flex;
+            justify-content: space-evenly;
+                @import 'img-select';
+        }
+        .libreriaPlay{
+            background: {
+                image: url(../img/libreriaFondos/god-of-war.jpg);
+                repeat: $backRepeat;
+                size: $backSize;
+            }
+            display: flex;
+            justify-content: space-evenly;
+                @import 'img-select';
+        }
+        .libreriaOrigin{
+            background: {
+                image: url(../img/libreriaFondos/mass-effect.jpg);
+                repeat: $backRepeat;
+                size: $backSize;
+            }
+            display: flex;
+            justify-content: space-evenly;
+                 @import 'img-select'; 
+        }
+        .libreriaGog{
+            background: {
+                image: url(../img/libreriaFondos/the-witcher.png);
+                repeat: $backRepeat;
+                size: $backSize;
+            }
+            display: flex;
+            justify-content: space-evenly;
+                @import 'img-select';  
+        }
+        .libreriaEpicgames{
+            background: {
+                image: url(../img/libreriaFondos/borderlands.jpg);
+                repeat: $backRepeat;
+                size: $backSize;
+            }
+            display: flex;
+            justify-content: space-evenly;
+                @import 'img-select';  
+        }
+        .libreriaXbox{
+            background: {
+                image: url(../img/libreriaFondos/halo-5.jpg);
+                repeat: $backRepeat;
+                size: $backSize;
+            }
+            display: flex;
+            justify-content: space-evenly;
+                @import 'img-select';
+        }
+}
+
+.footerContainer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 400px;
+        .footerConta{
+            display: grid;
+            grid-template-columns: 200px 200px;
+            .footer{
+                text-decoration: none;
+                text-align: center;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: larger;
+                color: orange;
+            }
+        }
+        .footerLinks{
+            display: grid;
+            align-content: space-around;
+            .footer{
+                text-decoration: none;
+                text-align: center;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: larger;
+                color: orange;
+            }
+        }
+}
