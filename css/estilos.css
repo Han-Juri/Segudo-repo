@@ -23,11 +23,16 @@ body.bg{
     height: 30px;
 }
 .logo{
-    translate: 0px 75px;
     margin: auto;
     justify-items: center;
     height: 500px;
     width: 500px;
+}
+.title{
+    color: black;
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .barraUsuario{
     display: flex;
@@ -187,16 +192,36 @@ tr td{
 
 /* Responsive */
 
-@media (479px <= width <= 767px) {
-    .barraUsuario{
-        margin: 0px auto;
-        display: grid;
-        grid-template-columns: 100px 100px;
-        grid-template-rows: 1fr;
+@media (319px <= width <= 767px) {
+    .mainNav{
+        margin: 0 auto;
     }
+    .barraUsuario{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+    }
+    .barraUsuario a{
+        display: grid;
+        justify-content: center;
+    }
+    
     .logo{
         margin: 0px auto;
         justify-items: center;
+    }
+    .footerConta{
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: repeat(4, 75px);
+    }
+    .headof{
+        margin: 0 auto;
+    }
+    .ofertasContainer{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
 

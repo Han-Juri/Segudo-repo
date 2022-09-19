@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import 'vars';
+@mixin hover() {
+    height: 150px;
+    width: 150px;
+    display: flex;
+}
+$hover-backgrounds: (
+    steamb: darkblue,
+    playb: blue,
+    originb: orange,
+    gogb: grey,
+    epicb: rgba(48, 49, 70, 0.404),
+    xboxb: green,
+);
+.barraUsuario{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+        a{
+            text-decoration: none;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        input{
+            height: 60px;
+            width: 150px;
+            color: white;
+            background-color: black;
+            border-radius: 45%;
+            transition: all 1s;
+        }
+        input:hover{
+            color: black;
+            background-color: white;
+            height: 80px;
+            width: 175px;
+        }
+}
+body{
+    background: {
+        image: url(../img/libreriaFondos/fondo-libreria.jpg);
+        repeat: $backRepeat;
+        size: $backSize;
+    }
+}
+h1{
+    color: black;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 3rem;
+}    
+.containerLibreria{
+    display: grid;
+    grid-template-columns: 750px 750px;
+    grid-template-rows: 500px 500px 500px;
+    justify-content: center;
+    gap: 150px;
+    
+        .libreriaSteam{
+            background: {
+                image: url(../img/libreriaFondos/portal2jpg.jpg);
+                repeat: $backRepeat;
+                size: $backSize;
+            }
+            display: flex;
+            justify-content: space-evenly;
+                @import 'img-select';
+        }
+        .libreriaPlay{
+            background: {
+                image: url(../img/libreriaFondos/god-of-war.jpg);
+                repeat: $backRepeat;
+                size: $backSize;
+            }
+            display: flex;
+            justify-content: space-evenly;
+                @import 'img-select';
+        }
+        .libreriaOrigin{
+            background: {
+                image: url(../img/libreriaFondos/mass-effect.jpg);
+                repeat: $backRepeat;
+                size: $backSize;
+            }
+            display: flex;
+            justify-content: space-evenly;
+                 @import 'img-select'; 
+        }
+        .libreriaGog{
+            background: {
+                image: url(../img/libreriaFondos/the-witcher.png);
+                repeat: $backRepeat;
+                size: $backSize;
+            }
+            display: flex;
+            justify-content: space-evenly;
+                @import 'img-select';  
+        }
+        .libreriaEpicgames{
+            background: {
+                image: url(../img/libreriaFondos/borderlands.jpg);
+                repeat: $backRepeat;
+                size: $backSize;
+            }
+            display: flex;
+            justify-content: space-evenly;
+                @import 'img-select';  
+        }
+        .libreriaXbox{
+            background: {
+                image: url(../img/libreriaFondos/halo-5.jpg);
+                repeat: $backRepeat;
+                size: $backSize;
+            }
+            display: flex;
+            justify-content: space-evenly;
+                @import 'img-select';
+        }
+}
+
+/* Juegos Gratis */
+
+.juegosGratisContainter{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px 500px 500px;
+    justify-content: center;
+    gap: 100px;
+        .freeSteam{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            img{
+                height: 200px;
+                width: 200px;
+                justify-self: center;
+            }
+            .jfreeSteam{
+                @extend .jfree  
+            }
+        }    
+        .freeSteam:hover{
+            background-color: map-get($hover-backgrounds, steamb);
+            display: flex;
+            justify-content: center;
+            align-content: center;    
+                img{
+                    height: 200px;
+                    width: 200px;
+                    justify-self: center;
+                };
+                .jfreeSteam{
+                    display: flex;
+                        img{
+                            @include hover();
+                        }    
+                }
+        }   
+        .freePlay{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            img{
+                height: 200px;
+                width: 200px;
+                justify-self: center;
+            }
+            .jfreePlay{
+                @extend .jfree  
+            }
+        }    
+        .freePlay:hover{
+            background-color: map-get($hover-backgrounds, playb);
+            display: flex;
+            justify-content: center;
+            align-content: center;    
+                img{
+                    height: 200px;
+                    width: 200px;
+                    justify-self: center;
+                };
+                .jfreePlay{
+                    display: flex;
+                        img{
+                            @include hover();
+                        }    
+                }
+        }   
+        .freeOrigin{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            img{
+                height: 200px;
+                width: 200px;
+                justify-self: center;
+            }
+            .jfreeOrigin{
+                @extend .jfree  
+            }
+        }    
+        .freeOrigin:hover{
+            background-color: map-get($hover-backgrounds, originb);
+            display: flex;
+            justify-content: center;
+            align-content: center;    
+                img{
+                    height: 200px;
+                    width: 200px;
+                    justify-self: center;
+                };
+                .jfreeOrigin{
+                    display: flex;
+                        img{
+                            @include hover();
+                        }    
+                }
+        }   
+        .freeGog{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            img{
+                height: 200px;
+                width: 200px;
+                justify-self: center;
+            }
+            .jfreeGog{
+                @extend .jfree  
+            }
+        }    
+        .freeGog:hover{
+            background-color: map-get($hover-backgrounds, gogb);
+            display: flex;
+            justify-content: center;
+            align-content: center;    
+                img{
+                    height: 200px;
+                    width: 200px;
+                    justify-self: center;
+                };
+                .jfreeGog{
+                    display: flex;
+                        img{
+                            @include hover();
+                        }    
+                }
+        }   
+        .freeEpic{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            img{
+                height: 200px;
+                width: 200px;
+                justify-self: center;
+            }
+            .jfreeEpic{
+                @extend .jfree  
+            }
+        }    
+        .freeEpic:hover{
+            background-color: map-get($hover-backgrounds, epicb);
+            display: flex;
+            justify-content: center;
+            align-content: center;    
+                img{
+                    height: 200px;
+                    width: 200px;
+                    justify-self: center;
+                };
+                .jfreeEpic{
+                    display: flex;
+                        img{
+                            @include hover();
+                        }    
+                }
+        }   
+        .freeXbox{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            img{
+                height: 200px;
+                width: 200px;
+                justify-self: center;
+            }
+            .jfreeXbox{
+                @extend .jfree  
+            }
+        }    
+        .freeXbox:hover{
+            background-color: map-get($hover-backgrounds, xboxb);   
+            display: flex;
+            justify-content: center;
+            align-content: center;    
+                img{
+                    height: 200px;
+                    width: 200px;
+                    justify-self: center;
+                };
+                .jfreeXbox{
+                    display: flex;
+                        img{
+                            @include hover();
+                        }    
+                }
+        }   
+}
+ 
+
+
+
+/* Footer*/
+
+.footerContainer{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 400px;
+        .footerConta{
+            display: grid;
+            grid-template-columns: 200px 200px;
+            .footer{
+                text-decoration: none;
+                text-align: center;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: larger;
+                color: orange;
+            }
+        }
+        .footerLinks{
+            display: grid;
+            align-content: space-around;
+            .footer{
+                text-decoration: none;
+                text-align: center;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: larger;
+                color: orange;
+            }
+        }
+}
+
+/* Responsive */
+
+@media (min-width: 319px) and (max-width: 767px) {
+    .headlib{
+        margin: 0 auto;
+            #bu{
+                .barraUsuario{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-rows: 1fr 1fr;
+                    justify-content: center;
+                        a{
+                            display: grid;
+                            justify-content: center;
+                        }
+            }
+        }
+    }
+    .h1lib{
+        color: red;
+    }
+    .containerLibreria{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6,400px);
+    }
+    .footerContainer{
+        .footerConta{
+            display: grid;
+            grid-template-columns: 300px;
+            grid-template-rows: repeat(4, 75px);
+        }
+    }
+}       

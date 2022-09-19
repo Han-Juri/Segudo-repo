@@ -4,3 +4,21 @@ $imgHeight: 200px;
 $imgWidth: 200px;
 $selectHeight: 19px;
 $selectWidth: 160px;
+.free{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+        img{
+            height: 200px;
+            width: 200px;
+            justify-self: center;
+        }
+}
+.jfree{
+    display: flex;
+       img{
+           height: 150px;
+           width: 150px;
+           display: none;
+       } 
+}
