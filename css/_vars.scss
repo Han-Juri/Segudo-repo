@@ -8,6 +8,7 @@ $selectWidth: 160px;
     display: flex;
     justify-content: center;
     align-content: center;
+    transition: all 1s;
         img{
             height: 200px;
             width: 200px;
@@ -16,9 +17,10 @@ $selectWidth: 160px;
 }
 .jfree{
     display: flex;
-       img{
-           height: 150px;
-           width: 150px;
-           display: none;
+    transition: all 1s;
+        img{
+            height: 150px;
+            width: 150px;
+            display: none;
        } 
 }

@@ -8,6 +8,7 @@
   display: flex;
   justify-content: center;
   align-content: center;
+  transition: all 1s;
 }
 .free img {
   height: 200px;
@@ -17,6 +18,7 @@
 
 .jfree, .juegosGratisContainter .freeXbox .jfreeXbox, .juegosGratisContainter .freeEpic .jfreeEpic, .juegosGratisContainter .freeGog .jfreeGog, .juegosGratisContainter .freeOrigin .jfreeOrigin, .juegosGratisContainter .freePlay .jfreePlay, .juegosGratisContainter .freeSteam .jfreeSteam {
   display: flex;
+  transition: all 1s;
 }
 .jfree img, .juegosGratisContainter .freeXbox .jfreeXbox img, .juegosGratisContainter .freeEpic .jfreeEpic img, .juegosGratisContainter .freeGog .jfreeGog img, .juegosGratisContainter .freeOrigin .jfreeOrigin img, .juegosGratisContainter .freePlay .jfreePlay img, .juegosGratisContainter .freeSteam .jfreeSteam img {
   height: 150px;
@@ -80,6 +82,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-content: center;
+  transition: all 1s;
 }
 .containerLibreria .libreriaSteam .free img {
   height: 200px;
@@ -88,6 +91,7 @@ h1 {
 }
 .containerLibreria .libreriaSteam .jfree, .containerLibreria .libreriaSteam .juegosGratisContainter .freeXbox .jfreeXbox, .juegosGratisContainter .freeXbox .containerLibreria .libreriaSteam .jfreeXbox, .containerLibreria .libreriaSteam .juegosGratisContainter .freeEpic .jfreeEpic, .juegosGratisContainter .freeEpic .containerLibreria .libreriaSteam .jfreeEpic, .containerLibreria .libreriaSteam .juegosGratisContainter .freeGog .jfreeGog, .juegosGratisContainter .freeGog .containerLibreria .libreriaSteam .jfreeGog, .containerLibreria .libreriaSteam .juegosGratisContainter .freeOrigin .jfreeOrigin, .juegosGratisContainter .freeOrigin .containerLibreria .libreriaSteam .jfreeOrigin, .containerLibreria .libreriaSteam .juegosGratisContainter .freePlay .jfreePlay, .juegosGratisContainter .freePlay .containerLibreria .libreriaSteam .jfreePlay, .containerLibreria .libreriaSteam .juegosGratisContainter .freeSteam .jfreeSteam, .juegosGratisContainter .freeSteam .containerLibreria .libreriaSteam .jfreeSteam {
   display: flex;
+  transition: all 1s;
 }
 .containerLibreria .libreriaSteam .jfree img, .containerLibreria .libreriaSteam .juegosGratisContainter .freeXbox .jfreeXbox img, .juegosGratisContainter .freeXbox .containerLibreria .libreriaSteam .jfreeXbox img, .containerLibreria .libreriaSteam .juegosGratisContainter .freeEpic .jfreeEpic img, .juegosGratisContainter .freeEpic .containerLibreria .libreriaSteam .jfreeEpic img, .containerLibreria .libreriaSteam .juegosGratisContainter .freeGog .jfreeGog img, .juegosGratisContainter .freeGog .containerLibreria .libreriaSteam .jfreeGog img, .containerLibreria .libreriaSteam .juegosGratisContainter .freeOrigin .jfreeOrigin img, .juegosGratisContainter .freeOrigin .containerLibreria .libreriaSteam .jfreeOrigin img, .containerLibreria .libreriaSteam .juegosGratisContainter .freePlay .jfreePlay img, .juegosGratisContainter .freePlay .containerLibreria .libreriaSteam .jfreePlay img, .containerLibreria .libreriaSteam .juegosGratisContainter .freeSteam .jfreeSteam img, .juegosGratisContainter .freeSteam .containerLibreria .libreriaSteam .jfreeSteam img {
   height: 150px;
@@ -115,6 +119,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-content: center;
+  transition: all 1s;
 }
 .containerLibreria .libreriaPlay .free img {
   height: 200px;
@@ -123,6 +128,7 @@ h1 {
 }
 .containerLibreria .libreriaPlay .jfree, .containerLibreria .libreriaPlay .juegosGratisContainter .freeXbox .jfreeXbox, .juegosGratisContainter .freeXbox .containerLibreria .libreriaPlay .jfreeXbox, .containerLibreria .libreriaPlay .juegosGratisContainter .freeEpic .jfreeEpic, .juegosGratisContainter .freeEpic .containerLibreria .libreriaPlay .jfreeEpic, .containerLibreria .libreriaPlay .juegosGratisContainter .freeGog .jfreeGog, .juegosGratisContainter .freeGog .containerLibreria .libreriaPlay .jfreeGog, .containerLibreria .libreriaPlay .juegosGratisContainter .freeOrigin .jfreeOrigin, .juegosGratisContainter .freeOrigin .containerLibreria .libreriaPlay .jfreeOrigin, .containerLibreria .libreriaPlay .juegosGratisContainter .freePlay .jfreePlay, .juegosGratisContainter .freePlay .containerLibreria .libreriaPlay .jfreePlay, .containerLibreria .libreriaPlay .juegosGratisContainter .freeSteam .jfreeSteam, .juegosGratisContainter .freeSteam .containerLibreria .libreriaPlay .jfreeSteam {
   display: flex;
+  transition: all 1s;
 }
 .containerLibreria .libreriaPlay .jfree img, .containerLibreria .libreriaPlay .juegosGratisContainter .freeXbox .jfreeXbox img, .juegosGratisContainter .freeXbox .containerLibreria .libreriaPlay .jfreeXbox img, .containerLibreria .libreriaPlay .juegosGratisContainter .freeEpic .jfreeEpic img, .juegosGratisContainter .freeEpic .containerLibreria .libreriaPlay .jfreeEpic img, .containerLibreria .libreriaPlay .juegosGratisContainter .freeGog .jfreeGog img, .juegosGratisContainter .freeGog .containerLibreria .libreriaPlay .jfreeGog img, .containerLibreria .libreriaPlay .juegosGratisContainter .freeOrigin .jfreeOrigin img, .juegosGratisContainter .freeOrigin .containerLibreria .libreriaPlay .jfreeOrigin img, .containerLibreria .libreriaPlay .juegosGratisContainter .freePlay .jfreePlay img, .juegosGratisContainter .freePlay .containerLibreria .libreriaPlay .jfreePlay img, .containerLibreria .libreriaPlay .juegosGratisContainter .freeSteam .jfreeSteam img, .juegosGratisContainter .freeSteam .containerLibreria .libreriaPlay .jfreeSteam img {
   height: 150px;
@@ -150,6 +156,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-content: center;
+  transition: all 1s;
 }
 .containerLibreria .libreriaOrigin .free img {
   height: 200px;
@@ -158,6 +165,7 @@ h1 {
 }
 .containerLibreria .libreriaOrigin .jfree, .containerLibreria .libreriaOrigin .juegosGratisContainter .freeXbox .jfreeXbox, .juegosGratisContainter .freeXbox .containerLibreria .libreriaOrigin .jfreeXbox, .containerLibreria .libreriaOrigin .juegosGratisContainter .freeEpic .jfreeEpic, .juegosGratisContainter .freeEpic .containerLibreria .libreriaOrigin .jfreeEpic, .containerLibreria .libreriaOrigin .juegosGratisContainter .freeGog .jfreeGog, .juegosGratisContainter .freeGog .containerLibreria .libreriaOrigin .jfreeGog, .containerLibreria .libreriaOrigin .juegosGratisContainter .freeOrigin .jfreeOrigin, .juegosGratisContainter .freeOrigin .containerLibreria .libreriaOrigin .jfreeOrigin, .containerLibreria .libreriaOrigin .juegosGratisContainter .freePlay .jfreePlay, .juegosGratisContainter .freePlay .containerLibreria .libreriaOrigin .jfreePlay, .containerLibreria .libreriaOrigin .juegosGratisContainter .freeSteam .jfreeSteam, .juegosGratisContainter .freeSteam .containerLibreria .libreriaOrigin .jfreeSteam {
   display: flex;
+  transition: all 1s;
 }
 .containerLibreria .libreriaOrigin .jfree img, .containerLibreria .libreriaOrigin .juegosGratisContainter .freeXbox .jfreeXbox img, .juegosGratisContainter .freeXbox .containerLibreria .libreriaOrigin .jfreeXbox img, .containerLibreria .libreriaOrigin .juegosGratisContainter .freeEpic .jfreeEpic img, .juegosGratisContainter .freeEpic .containerLibreria .libreriaOrigin .jfreeEpic img, .containerLibreria .libreriaOrigin .juegosGratisContainter .freeGog .jfreeGog img, .juegosGratisContainter .freeGog .containerLibreria .libreriaOrigin .jfreeGog img, .containerLibreria .libreriaOrigin .juegosGratisContainter .freeOrigin .jfreeOrigin img, .juegosGratisContainter .freeOrigin .containerLibreria .libreriaOrigin .jfreeOrigin img, .containerLibreria .libreriaOrigin .juegosGratisContainter .freePlay .jfreePlay img, .juegosGratisContainter .freePlay .containerLibreria .libreriaOrigin .jfreePlay img, .containerLibreria .libreriaOrigin .juegosGratisContainter .freeSteam .jfreeSteam img, .juegosGratisContainter .freeSteam .containerLibreria .libreriaOrigin .jfreeSteam img {
   height: 150px;
@@ -185,6 +193,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-content: center;
+  transition: all 1s;
 }
 .containerLibreria .libreriaGog .free img {
   height: 200px;
@@ -193,6 +202,7 @@ h1 {
 }
 .containerLibreria .libreriaGog .jfree, .containerLibreria .libreriaGog .juegosGratisContainter .freeXbox .jfreeXbox, .juegosGratisContainter .freeXbox .containerLibreria .libreriaGog .jfreeXbox, .containerLibreria .libreriaGog .juegosGratisContainter .freeEpic .jfreeEpic, .juegosGratisContainter .freeEpic .containerLibreria .libreriaGog .jfreeEpic, .containerLibreria .libreriaGog .juegosGratisContainter .freeGog .jfreeGog, .juegosGratisContainter .freeGog .containerLibreria .libreriaGog .jfreeGog, .containerLibreria .libreriaGog .juegosGratisContainter .freeOrigin .jfreeOrigin, .juegosGratisContainter .freeOrigin .containerLibreria .libreriaGog .jfreeOrigin, .containerLibreria .libreriaGog .juegosGratisContainter .freePlay .jfreePlay, .juegosGratisContainter .freePlay .containerLibreria .libreriaGog .jfreePlay, .containerLibreria .libreriaGog .juegosGratisContainter .freeSteam .jfreeSteam, .juegosGratisContainter .freeSteam .containerLibreria .libreriaGog .jfreeSteam {
   display: flex;
+  transition: all 1s;
 }
 .containerLibreria .libreriaGog .jfree img, .containerLibreria .libreriaGog .juegosGratisContainter .freeXbox .jfreeXbox img, .juegosGratisContainter .freeXbox .containerLibreria .libreriaGog .jfreeXbox img, .containerLibreria .libreriaGog .juegosGratisContainter .freeEpic .jfreeEpic img, .juegosGratisContainter .freeEpic .containerLibreria .libreriaGog .jfreeEpic img, .containerLibreria .libreriaGog .juegosGratisContainter .freeGog .jfreeGog img, .juegosGratisContainter .freeGog .containerLibreria .libreriaGog .jfreeGog img, .containerLibreria .libreriaGog .juegosGratisContainter .freeOrigin .jfreeOrigin img, .juegosGratisContainter .freeOrigin .containerLibreria .libreriaGog .jfreeOrigin img, .containerLibreria .libreriaGog .juegosGratisContainter .freePlay .jfreePlay img, .juegosGratisContainter .freePlay .containerLibreria .libreriaGog .jfreePlay img, .containerLibreria .libreriaGog .juegosGratisContainter .freeSteam .jfreeSteam img, .juegosGratisContainter .freeSteam .containerLibreria .libreriaGog .jfreeSteam img {
   height: 150px;
@@ -220,6 +230,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-content: center;
+  transition: all 1s;
 }
 .containerLibreria .libreriaEpicgames .free img {
   height: 200px;
@@ -228,6 +239,7 @@ h1 {
 }
 .containerLibreria .libreriaEpicgames .jfree, .containerLibreria .libreriaEpicgames .juegosGratisContainter .freeXbox .jfreeXbox, .juegosGratisContainter .freeXbox .containerLibreria .libreriaEpicgames .jfreeXbox, .containerLibreria .libreriaEpicgames .juegosGratisContainter .freeEpic .jfreeEpic, .juegosGratisContainter .freeEpic .containerLibreria .libreriaEpicgames .jfreeEpic, .containerLibreria .libreriaEpicgames .juegosGratisContainter .freeGog .jfreeGog, .juegosGratisContainter .freeGog .containerLibreria .libreriaEpicgames .jfreeGog, .containerLibreria .libreriaEpicgames .juegosGratisContainter .freeOrigin .jfreeOrigin, .juegosGratisContainter .freeOrigin .containerLibreria .libreriaEpicgames .jfreeOrigin, .containerLibreria .libreriaEpicgames .juegosGratisContainter .freePlay .jfreePlay, .juegosGratisContainter .freePlay .containerLibreria .libreriaEpicgames .jfreePlay, .containerLibreria .libreriaEpicgames .juegosGratisContainter .freeSteam .jfreeSteam, .juegosGratisContainter .freeSteam .containerLibreria .libreriaEpicgames .jfreeSteam {
   display: flex;
+  transition: all 1s;
 }
 .containerLibreria .libreriaEpicgames .jfree img, .containerLibreria .libreriaEpicgames .juegosGratisContainter .freeXbox .jfreeXbox img, .juegosGratisContainter .freeXbox .containerLibreria .libreriaEpicgames .jfreeXbox img, .containerLibreria .libreriaEpicgames .juegosGratisContainter .freeEpic .jfreeEpic img, .juegosGratisContainter .freeEpic .containerLibreria .libreriaEpicgames .jfreeEpic img, .containerLibreria .libreriaEpicgames .juegosGratisContainter .freeGog .jfreeGog img, .juegosGratisContainter .freeGog .containerLibreria .libreriaEpicgames .jfreeGog img, .containerLibreria .libreriaEpicgames .juegosGratisContainter .freeOrigin .jfreeOrigin img, .juegosGratisContainter .freeOrigin .containerLibreria .libreriaEpicgames .jfreeOrigin img, .containerLibreria .libreriaEpicgames .juegosGratisContainter .freePlay .jfreePlay img, .juegosGratisContainter .freePlay .containerLibreria .libreriaEpicgames .jfreePlay img, .containerLibreria .libreriaEpicgames .juegosGratisContainter .freeSteam .jfreeSteam img, .juegosGratisContainter .freeSteam .containerLibreria .libreriaEpicgames .jfreeSteam img {
   height: 150px;
@@ -255,6 +267,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-content: center;
+  transition: all 1s;
 }
 .containerLibreria .libreriaXbox .free img {
   height: 200px;
@@ -263,6 +276,7 @@ h1 {
 }
 .containerLibreria .libreriaXbox .jfree, .containerLibreria .libreriaXbox .juegosGratisContainter .freeXbox .jfreeXbox, .juegosGratisContainter .freeXbox .containerLibreria .libreriaXbox .jfreeXbox, .containerLibreria .libreriaXbox .juegosGratisContainter .freeEpic .jfreeEpic, .juegosGratisContainter .freeEpic .containerLibreria .libreriaXbox .jfreeEpic, .containerLibreria .libreriaXbox .juegosGratisContainter .freeGog .jfreeGog, .juegosGratisContainter .freeGog .containerLibreria .libreriaXbox .jfreeGog, .containerLibreria .libreriaXbox .juegosGratisContainter .freeOrigin .jfreeOrigin, .juegosGratisContainter .freeOrigin .containerLibreria .libreriaXbox .jfreeOrigin, .containerLibreria .libreriaXbox .juegosGratisContainter .freePlay .jfreePlay, .juegosGratisContainter .freePlay .containerLibreria .libreriaXbox .jfreePlay, .containerLibreria .libreriaXbox .juegosGratisContainter .freeSteam .jfreeSteam, .juegosGratisContainter .freeSteam .containerLibreria .libreriaXbox .jfreeSteam {
   display: flex;
+  transition: all 1s;
 }
 .containerLibreria .libreriaXbox .jfree img, .containerLibreria .libreriaXbox .juegosGratisContainter .freeXbox .jfreeXbox img, .juegosGratisContainter .freeXbox .containerLibreria .libreriaXbox .jfreeXbox img, .containerLibreria .libreriaXbox .juegosGratisContainter .freeEpic .jfreeEpic img, .juegosGratisContainter .freeEpic .containerLibreria .libreriaXbox .jfreeEpic img, .containerLibreria .libreriaXbox .juegosGratisContainter .freeGog .jfreeGog img, .juegosGratisContainter .freeGog .containerLibreria .libreriaXbox .jfreeGog img, .containerLibreria .libreriaXbox .juegosGratisContainter .freeOrigin .jfreeOrigin img, .juegosGratisContainter .freeOrigin .containerLibreria .libreriaXbox .jfreeOrigin img, .containerLibreria .libreriaXbox .juegosGratisContainter .freePlay .jfreePlay img, .juegosGratisContainter .freePlay .containerLibreria .libreriaXbox .jfreePlay img, .containerLibreria .libreriaXbox .juegosGratisContainter .freeSteam .jfreeSteam img, .juegosGratisContainter .freeSteam .containerLibreria .libreriaXbox .jfreeSteam img {
   height: 150px;
@@ -292,176 +306,217 @@ h1 {
 .juegosGratisContainter .freeSteam {
   display: flex;
   justify-content: center;
-  align-content: center;
+  transition: all 1s;
 }
 .juegosGratisContainter .freeSteam img {
   height: 200px;
   width: 200px;
   justify-self: center;
+  align-self: center;
+  transition: all 1s;
 }
 .juegosGratisContainter .freeSteam:hover {
   background-color: darkblue;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 500px;
+  grid-template-rows: 250px 250px;
+  justify-content: space-evenly;
   align-content: center;
+  transition: all 1s;
 }
 .juegosGratisContainter .freeSteam:hover img {
+  transform: rotate(360deg);
   height: 200px;
   width: 200px;
-  justify-self: center;
 }
 .juegosGratisContainter .freeSteam:hover .jfreeSteam {
   display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
 }
 .juegosGratisContainter .freeSteam:hover .jfreeSteam img {
   height: 150px;
   width: 150px;
   display: flex;
+  justify-self: center;
 }
 .juegosGratisContainter .freePlay {
   display: flex;
   justify-content: center;
-  align-content: center;
+  transition: all 1s;
 }
 .juegosGratisContainter .freePlay img {
   height: 200px;
   width: 200px;
   justify-self: center;
+  align-self: center;
+  transition: all 1s;
+  order: -1;
 }
 .juegosGratisContainter .freePlay:hover {
   background-color: blue;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-rows: 250px 250px;
+  justify-content: space-evenly;
   align-content: center;
 }
 .juegosGratisContainter .freePlay:hover img {
+  transform: rotate(360deg);
   height: 200px;
   width: 200px;
-  justify-self: center;
 }
 .juegosGratisContainter .freePlay:hover .jfreePlay {
   display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
 }
 .juegosGratisContainter .freePlay:hover .jfreePlay img {
   height: 150px;
   width: 150px;
   display: flex;
+  justify-self: center;
 }
 .juegosGratisContainter .freeOrigin {
   display: flex;
   justify-content: center;
-  align-content: center;
+  transition: all 1s;
 }
 .juegosGratisContainter .freeOrigin img {
   height: 200px;
   width: 200px;
   justify-self: center;
+  align-self: center;
+  transition: all 1s;
 }
 .juegosGratisContainter .freeOrigin:hover {
   background-color: orange;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-rows: 250px 250px;
+  justify-content: space-evenly;
   align-content: center;
 }
 .juegosGratisContainter .freeOrigin:hover img {
+  transform: rotate(360deg);
   height: 200px;
   width: 200px;
-  justify-self: center;
 }
 .juegosGratisContainter .freeOrigin:hover .jfreeOrigin {
   display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
 }
 .juegosGratisContainter .freeOrigin:hover .jfreeOrigin img {
   height: 150px;
   width: 150px;
   display: flex;
+  justify-self: center;
 }
 .juegosGratisContainter .freeGog {
   display: flex;
   justify-content: center;
-  align-content: center;
+  transition: all 1s;
 }
 .juegosGratisContainter .freeGog img {
   height: 200px;
   width: 200px;
   justify-self: center;
+  align-self: center;
+  transition: all 1s;
+  order: -1;
 }
 .juegosGratisContainter .freeGog:hover {
   background-color: grey;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-rows: 250px 250px;
+  justify-content: space-evenly;
   align-content: center;
 }
 .juegosGratisContainter .freeGog:hover img {
+  transform: rotate(360deg);
   height: 200px;
   width: 200px;
-  justify-self: center;
 }
 .juegosGratisContainter .freeGog:hover .jfreeGog {
   display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
 }
 .juegosGratisContainter .freeGog:hover .jfreeGog img {
   height: 150px;
   width: 150px;
   display: flex;
+  justify-self: center;
 }
 .juegosGratisContainter .freeEpic {
   display: flex;
   justify-content: center;
-  align-content: center;
+  transition: all 1s;
 }
 .juegosGratisContainter .freeEpic img {
   height: 200px;
   width: 200px;
   justify-self: center;
+  align-self: center;
+  transition: all 1s;
 }
 .juegosGratisContainter .freeEpic:hover {
   background-color: rgba(48, 49, 70, 0.404);
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-rows: 250px 250px;
+  justify-content: space-evenly;
   align-content: center;
 }
 .juegosGratisContainter .freeEpic:hover img {
+  transform: rotate(360deg);
   height: 200px;
   width: 200px;
-  justify-self: center;
 }
 .juegosGratisContainter .freeEpic:hover .jfreeEpic {
   display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
 }
 .juegosGratisContainter .freeEpic:hover .jfreeEpic img {
   height: 150px;
   width: 150px;
   display: flex;
+  justify-self: center;
 }
 .juegosGratisContainter .freeXbox {
   display: flex;
   justify-content: center;
-  align-content: center;
+  transition: all 1s;
 }
 .juegosGratisContainter .freeXbox img {
   height: 200px;
   width: 200px;
   justify-self: center;
+  align-self: center;
+  transition: all 1s;
+  order: -1;
 }
 .juegosGratisContainter .freeXbox:hover {
   background-color: green;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-rows: 250px 250px;
+  justify-content: space-evenly;
   align-content: center;
 }
 .juegosGratisContainter .freeXbox:hover img {
+  transform: rotate(360deg);
   height: 200px;
   width: 200px;
-  justify-self: center;
 }
 .juegosGratisContainter .freeXbox:hover .jfreeXbox {
   display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
 }
 .juegosGratisContainter .freeXbox:hover .jfreeXbox img {
   height: 150px;
   width: 150px;
   display: flex;
+  justify-self: center;
 }
 
 /* Footer*/
@@ -495,6 +550,16 @@ h1 {
 
 /* Responsive */
 @media (min-width: 319px) and (max-width: 767px) {
+  .barraUsuario {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+  }
+  .barraUsuario a {
+    display: grid;
+    justify-content: center;
+  }
   .headlib {
     margin: 0 auto;
   }
@@ -508,6 +573,9 @@ h1 {
     display: grid;
     justify-content: center;
   }
+  .h1jg {
+    color: red;
+  }
   .h1lib {
     color: red;
   }
@@ -520,5 +588,136 @@ h1 {
     display: grid;
     grid-template-columns: 300px;
     grid-template-rows: repeat(4, 75px);
+  }
+  .juegosGratisContainter {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 500px);
+    justify-content: center;
+    gap: 100px;
+  }
+  .juegosGratisContainter .freeSteam {
+    display: grid;
+    grid-template-rows: 250px 250px;
+    justify-content: center;
+    align-content: center;
+    background-color: darkblue;
+  }
+  .juegosGratisContainter .freeSteam img {
+    height: 200px;
+    width: 200px;
+    justify-self: center;
+    align-self: center;
+  }
+  .juegosGratisContainter .freeSteam .jfreeSteam {
+    display: flex;
+    gap: 30px;
+  }
+  .juegosGratisContainter .freeSteam .jfreeSteam img {
+    display: flex;
+  }
+  .juegosGratisContainter .freePlay {
+    display: grid;
+    grid-template-rows: 250px 250px;
+    justify-content: center;
+    align-content: center;
+    background-color: blue;
+  }
+  .juegosGratisContainter .freePlay img {
+    height: 200px;
+    width: 200px;
+    justify-self: center;
+    align-self: center;
+    order: -1;
+  }
+  .juegosGratisContainter .freePlay .jfreePlay {
+    display: flex;
+    gap: 30px;
+  }
+  .juegosGratisContainter .freePlay .jfreePlay img {
+    display: flex;
+  }
+  .juegosGratisContainter .freeOrigin {
+    display: grid;
+    grid-template-rows: 250px 250px;
+    justify-content: center;
+    align-content: center;
+    background-color: orange;
+  }
+  .juegosGratisContainter .freeOrigin img {
+    height: 200px;
+    width: 200px;
+    justify-self: center;
+    align-self: center;
+  }
+  .juegosGratisContainter .freeOrigin .jfreeOrigin {
+    display: flex;
+    gap: 30px;
+  }
+  .juegosGratisContainter .freeOrigin .jfreeOrigin img {
+    display: flex;
+  }
+  .juegosGratisContainter .freeGog {
+    display: grid;
+    grid-template-rows: 250px 250px;
+    justify-content: center;
+    align-content: center;
+    background-color: grey;
+  }
+  .juegosGratisContainter .freeGog img {
+    height: 200px;
+    width: 200px;
+    justify-self: center;
+    align-self: center;
+    order: -1;
+  }
+  .juegosGratisContainter .freeGog .jfreeGog {
+    display: flex;
+    gap: 30px;
+  }
+  .juegosGratisContainter .freeGog .jfreeGog img {
+    display: flex;
+  }
+  .juegosGratisContainter .freeEpic {
+    display: grid;
+    grid-template-rows: 250px 250px;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(48, 49, 70, 0.404);
+  }
+  .juegosGratisContainter .freeEpic img {
+    height: 200px;
+    width: 200px;
+    justify-self: center;
+    align-self: center;
+  }
+  .juegosGratisContainter .freeEpic .jfreeEpic {
+    display: flex;
+    gap: 30px;
+  }
+  .juegosGratisContainter .freeEpic .jfreeEpic img {
+    display: flex;
+  }
+  .juegosGratisContainter .freeXbox {
+    display: grid;
+    grid-template-rows: 250px 250px;
+    justify-content: center;
+    align-content: center;
+    background-color: green;
+  }
+  .juegosGratisContainter .freeXbox img {
+    height: 200px;
+    width: 200px;
+    justify-self: center;
+    align-self: center;
+    order: -1;
+  }
+  .juegosGratisContainter .freeXbox .jfreeXbox {
+    display: flex;
+    gap: 30px;
+  }
+  .juegosGratisContainter .freeXbox .jfreeXbox img {
+    display: flex;
   }
 }/*# sourceMappingURL=libreria-juegosGratis.css.map */

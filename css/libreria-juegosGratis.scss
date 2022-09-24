@@ -8,6 +8,7 @@
     height: 150px;
     width: 150px;
     display: flex;
+    justify-self: center;
 }
 $hover-backgrounds: (
     steamb: darkblue,
@@ -135,11 +136,13 @@ h1{
         .freeSteam{
             display: flex;
             justify-content: center;
-            align-content: center;
+            transition: all 1s;
             img{
                 height: 200px;
                 width: 200px;
                 justify-self: center;
+                align-self: center;
+                transition: all 1s;
             }
             .jfreeSteam{
                 @extend .jfree  
@@ -147,16 +150,21 @@ h1{
         }    
         .freeSteam:hover{
             background-color: map-get($hover-backgrounds, steamb);
-            display: flex;
-            justify-content: center;
-            align-content: center;    
+            display: grid;
+            grid-template-columns: 500px;
+            grid-template-rows: 250px 250px;
+            justify-content: space-evenly;
+            align-content: center; 
+            transition: all 1s;      
                 img{
+                    transform: rotate(360deg);
                     height: 200px;
                     width: 200px;
-                    justify-self: center;
                 };
                 .jfreeSteam{
                     display: flex;
+                    justify-content: space-evenly;
+                    gap: 30px;
                         img{
                             @include hover();
                         }    
@@ -165,11 +173,14 @@ h1{
         .freePlay{
             display: flex;
             justify-content: center;
-            align-content: center;
+            transition: all 1s;
             img{
                 height: 200px;
                 width: 200px;
                 justify-self: center;
+                align-self: center;
+                transition: all 1s;
+                order: -1;
             }
             .jfreePlay{
                 @extend .jfree  
@@ -177,16 +188,19 @@ h1{
         }    
         .freePlay:hover{
             background-color: map-get($hover-backgrounds, playb);
-            display: flex;
-            justify-content: center;
+            display: grid;
+            grid-template-rows: 250px 250px;
+            justify-content: space-evenly;
             align-content: center;    
                 img{
+                    transform: rotate(360deg);
                     height: 200px;
                     width: 200px;
-                    justify-self: center;
                 };
                 .jfreePlay{
                     display: flex;
+                    justify-content: space-evenly;
+                    gap: 30px;
                         img{
                             @include hover();
                         }    
@@ -195,11 +209,13 @@ h1{
         .freeOrigin{
             display: flex;
             justify-content: center;
-            align-content: center;
+            transition: all 1s;
             img{
                 height: 200px;
                 width: 200px;
                 justify-self: center;
+                align-self: center;
+                transition: all 1s;
             }
             .jfreeOrigin{
                 @extend .jfree  
@@ -207,16 +223,19 @@ h1{
         }    
         .freeOrigin:hover{
             background-color: map-get($hover-backgrounds, originb);
-            display: flex;
-            justify-content: center;
+            display: grid;
+            grid-template-rows: 250px 250px;
+            justify-content: space-evenly;
             align-content: center;    
                 img{
+                    transform: rotate(360deg);
                     height: 200px;
                     width: 200px;
-                    justify-self: center;
                 };
                 .jfreeOrigin{
                     display: flex;
+                    justify-content: space-evenly;
+                    gap: 30px;
                         img{
                             @include hover();
                         }    
@@ -225,11 +244,14 @@ h1{
         .freeGog{
             display: flex;
             justify-content: center;
-            align-content: center;
+            transition: all 1s;
             img{
                 height: 200px;
                 width: 200px;
                 justify-self: center;
+                align-self: center;
+                transition: all 1s;
+                order: -1;
             }
             .jfreeGog{
                 @extend .jfree  
@@ -237,16 +259,19 @@ h1{
         }    
         .freeGog:hover{
             background-color: map-get($hover-backgrounds, gogb);
-            display: flex;
-            justify-content: center;
+            display: grid;
+            grid-template-rows: 250px 250px;
+            justify-content: space-evenly;
             align-content: center;    
                 img{
+                    transform: rotate(360deg);
                     height: 200px;
                     width: 200px;
-                    justify-self: center;
                 };
                 .jfreeGog{
                     display: flex;
+                    justify-content: space-evenly;
+                    gap: 30px;
                         img{
                             @include hover();
                         }    
@@ -255,11 +280,13 @@ h1{
         .freeEpic{
             display: flex;
             justify-content: center;
-            align-content: center;
+            transition: all 1s;
             img{
                 height: 200px;
                 width: 200px;
                 justify-self: center;
+                align-self: center;
+                transition: all 1s;
             }
             .jfreeEpic{
                 @extend .jfree  
@@ -267,16 +294,19 @@ h1{
         }    
         .freeEpic:hover{
             background-color: map-get($hover-backgrounds, epicb);
-            display: flex;
-            justify-content: center;
+            display: grid;
+            grid-template-rows: 250px 250px;
+            justify-content: space-evenly;
             align-content: center;    
                 img{
+                    transform: rotate(360deg);
                     height: 200px;
                     width: 200px;
-                    justify-self: center;
                 };
                 .jfreeEpic{
                     display: flex;
+                    justify-content: space-evenly;
+                    gap: 30px;
                         img{
                             @include hover();
                         }    
@@ -285,11 +315,14 @@ h1{
         .freeXbox{
             display: flex;
             justify-content: center;
-            align-content: center;
+            transition: all 1s;
             img{
                 height: 200px;
                 width: 200px;
                 justify-self: center;
+                align-self: center;
+                transition: all 1s;
+                order: -1;
             }
             .jfreeXbox{
                 @extend .jfree  
@@ -297,16 +330,19 @@ h1{
         }    
         .freeXbox:hover{
             background-color: map-get($hover-backgrounds, xboxb);   
-            display: flex;
-            justify-content: center;
+            display: grid;
+            grid-template-rows: 250px 250px;
+            justify-content: space-evenly;
             align-content: center;    
                 img{
+                    transform: rotate(360deg);
                     height: 200px;
                     width: 200px;
-                    justify-self: center;
                 };
                 .jfreeXbox{
                     display: flex;
+                    justify-content: space-evenly;
+                    gap: 30px;
                         img{
                             @include hover();
                         }    
@@ -350,6 +386,16 @@ h1{
 /* Responsive */
 
 @media (min-width: 319px) and (max-width: 767px) {
+    .barraUsuario{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+        a{
+            display: grid;
+            justify-content: center;
+        }
+    }    
     .headlib{
         margin: 0 auto;
             #bu{
@@ -365,6 +411,9 @@ h1{
             }
         }
     }
+    .h1jg{
+        color: red;
+    }
     .h1lib{
         color: red;
     }
@@ -379,5 +428,136 @@ h1{
             grid-template-columns: 300px;
             grid-template-rows: repeat(4, 75px);
         }
+    }
+.juegosGratisContainter{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 500px);
+    justify-content: center;
+    gap: 100px;
+        .freeSteam{
+            display: grid;
+            grid-template-rows: 250px 250px;
+            justify-content: center;
+            align-content: center;
+            background-color: map-get($hover-backgrounds, steamb); 
+            img{
+                height: 200px;
+                width: 200px;
+                justify-self: center;
+                align-self: center;
+            }
+            .jfreeSteam{
+                display: flex;
+                gap: 30px;
+                img{
+                    display: flex;
+                }
+            }
+        }   
+        .freePlay{
+            display: grid;
+            grid-template-rows: 250px 250px;
+            justify-content: center;
+            align-content: center;
+            background-color: map-get($hover-backgrounds, playb); 
+            img{
+                height: 200px;
+                width: 200px;
+                justify-self: center;
+                align-self: center;
+                order: -1;
+            }
+            .jfreePlay{
+                display: flex;
+                gap: 30px;
+                img{
+                    display: flex;
+                }
+            }
+        }   
+        .freeOrigin{
+            display: grid;
+            grid-template-rows: 250px 250px;
+            justify-content: center;
+            align-content: center;
+            background-color: map-get($hover-backgrounds, originb); 
+            img{
+                height: 200px;
+                width: 200px;
+                justify-self: center;
+                align-self: center;
+            }
+            .jfreeOrigin{
+                display: flex;
+                gap: 30px;
+                img{
+                    display: flex;
+                }
+            }
+        }   
+        .freeGog{
+            display: grid;
+            grid-template-rows: 250px 250px;
+            justify-content: center;
+            align-content: center;
+            background-color: map-get($hover-backgrounds, gogb); 
+            img{
+                height: 200px;
+                width: 200px;
+                justify-self: center;
+                align-self: center;
+                order: -1;
+            }
+            .jfreeGog{
+                display: flex;
+                gap: 30px;
+                img{
+                    display: flex;
+                }
+            }
+        }   
+        .freeEpic{
+            display: grid;
+            grid-template-rows: 250px 250px;
+            justify-content: center;
+            align-content: center;
+            background-color: map-get($hover-backgrounds, epicb); 
+            img{
+                height: 200px;
+                width: 200px;
+                justify-self: center;
+                align-self: center;
+            }
+            .jfreeEpic{
+                display: flex;
+                gap: 30px;
+                img{
+                    display: flex;
+                }
+            }
+        }   
+        .freeXbox{
+            display: grid;
+            grid-template-rows: 250px 250px;
+            justify-content: center;
+            align-content: center;
+            background-color: map-get($hover-backgrounds, xboxb); 
+            img{
+                height: 200px;
+                width: 200px;
+                justify-self: center;
+                align-self: center;
+                order: -1;
+            }
+            .jfreeXbox{
+                display: flex;
+                gap: 30px;
+                img{
+                    display: flex;
+                }
+            }
+        }   
     }
 }       

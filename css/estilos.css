@@ -215,13 +215,14 @@ tr td{
         display: grid;
         grid-template-columns: 300px;
         grid-template-rows: repeat(4, 75px);
+        justify-content: start;
     }
     .headof{
         margin: 0 auto;
     }
     .ofertasContainer{
         display:grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 }
 
