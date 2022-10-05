@@ -10,7 +10,7 @@
     <meta name="keywords" content="Juegos, Plataformas, Steam, PLay Station, Epic Games, Origin, GOG, X Box, inicio, ofertas, gratis,">
     <title>Lista de deseados</title>
 </head>
-<body>
+<body class="ldBody">
     <header>
         <div id="bu">
             <nav class="barraUsuario">  
@@ -23,54 +23,90 @@
     </header>
     <nav>
         <div class="containerLista">
-            <fieldset class="lista">
-                <Legend>Lista de deseados</Legend>
-                <table>
-                        <thead>
+                <table class="ldTable">
+                        <thead class="ldThead">
                             <th>Nombre</th>
                             <th></th>
                             <th>Precio</th>
                             <th>Descuento</th>
                             <th>Prox. descuento</th>
+                            <th></th>
                         </thead>
-                        <tr>
-                            <td>Crash 3</td>
-                            <td><img src="../img/Crash_Bandicoot_3_cubierta.jpg" alt="Crash 3"></td>
-                            <td>$ 40</td>
-                            <td>-</td>
-                            <td>5 meses</td>
-                        </tr>
-                        <tr>
-                            <td>Sekiro</td>
-                            <td><img src="../img/sekiiro.jpg" alt="Sekiro"></td>
-                            <td>$ 60</td>
-                            <td>% 25</td>
-                            <td>-</td>
-                        </tr>
-                        <tr>
-                            <td>Cuphead</td>
-                            <td><img src="../img/Cuphead-Switch-logo.jpg" alt="Cuphead"></td>
-                            <td>$ 30</td>
-                            <td>-</td>
-                            <td>3 semanas</td>
-                        </tr>
+                        <tbody class="ldTbody">    
+                            <tr class="ldTr1">
+                                <td>Crash 3</td>
+                                <td><img class="ldImg" src="../img/Crash_Bandicoot_3_cubierta.jpg" alt="Crash 3"></td>
+                                <td>$ 40</td>
+                                <td>-</td>
+                                <td>5 meses</td>
+                                <td><input class="ldInput" type="button" value="Carrito"></td>
+                            </tr>
+                            <tr class="ldTr2">
+                                <td>Sekiro</td>
+                                <td><img class="ldImg" src="../img/sekiiro.jpg" alt="Sekiro"></td>
+                                <td>$ 60</td>
+                                <td>% 25</td>
+                                <td>-</td>
+                                <td><input class="ldInput" type="button" value="Carrito"></td>
+                            </tr>
+                            <tr class="ldTr3">
+                                <td>Cuphead</td>
+                                <td><img class="ldImg" src="../img/Cuphead-Switch-logo.jpg" alt="Cuphead"></td>
+                                <td>$ 30</td>
+                                <td>-</td>
+                                <td>3 semanas</td>
+                                <td><input class="ldInput" type="button" value="Carrito"></td>
+                            </tr>
+                        </tbody>    
                     </table>
-                </fieldset> 
-            <p>Ir a <a href="../pages/ofertas.html">Ofertas</a> para agregar mas juegos</p>
+        </div>
+        <div class="listaRespo">
+            <table class="respoTable">
+                <thead class="respoThead">
+                    <th>Juego</th>
+                    <th>Datos</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img class="ldImg" src="../img/Crash_Bandicoot_3_cubierta.jpg" alt="Crash 3"></td>
+                        <td><p>$ 40</p>
+                            <p>-</p>
+                            <p>5 meses</p>
+                        </td>
+                        <td><input class="ldInput" type="button" value="Carrito"></td>
+                    </tr>
+                    <tr>
+                        <td><img class="ldImg" src="../img/sekiiro.jpg" alt="Sekiro"></td>
+                        <td><p>$ 60</p>
+                            <p>% 25</p>
+                            <p>-</p>
+                        </td>
+                        <td><input class="ldInput" type="button" value="Carrito"></td>
+                    </tr>
+                    <tr>
+                        <td><img class="ldImg" src="../img/Cuphead-Switch-logo.jpg" alt="Cuphead"></td>
+                        <td><p>$ 30</p>
+                            <p>-</p>
+                            <p>3 meses</p>
+                        </td> 
+                        <td><input class="ldInput" type="button" value="Carrito"></td>
+                    </tr>
+                </tbody>
+            </table>
         </div>      
     </nav>
     <footer class="footerContainer"> 
         <div class="footerLinks">
-            <a class="footer" href="../pages/soporteTecnico.html">Soporte tecnico</a>
-            <a class="footer" href="../pages/contacto.html">Contacto</a>
-            <a class="footer" href="../pages/reembolsos.html">Reembolsos</a>
-            <a class="footer" href="../pages/trabajaConNosotros.html">Trabaja con nosotros</a>
+            <a class="footer" href="../pages/login.html">Soporte tecnico</a>
+            <a class="footer" href="../pages/login.html">Contacto</a>
+            <a class="footer" href="../pages/login.html">Reembolsos</a>
+            <a class="footer" href="../pages/login.html">Trabaja con nosotros</a>
         </div>
         <div class="footerConta">
-            <a class="footerA" href="https://twitter.com/?lang=es"><img src="../img/footer1.png" alt="twitter"></a>
-            <a class="footerA" href="https://es-la.facebook.com/"><img src="../img/footer2.png" alt="facebook"></a>
-            <a class="footerA" href="https://www.instagram.com/"><img src="../img/footer3.png" alt="instagram"></a>
-            <a class="footerA" href="https://web.whatsapp.com/"><img src="../img/footer4.png" alt="whatsapp"></a>
+            <a class="footerA" href="https://twitter.com/?lang=es"><img src="../img/twitter.png" alt="twitter"></a>
+            <a class="footerA" href="https://es-la.facebook.com/"><img src="../img/facebook.png" alt="facebook"></a>
+            <a class="footerA" href="https://www.instagram.com/"><img src="../img/instagram.png" alt="instagram"></a>
+            <a class="footerA" href="https://web.whatsapp.com/"><img src="../img/whatsapp.png" alt="whatsapp"></a>
         </div>
     </footer>   
 </body>

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/libreria-juegosGratis.css">
     <link rel="shortcut icon" href="../img/senuas-saga-hellblade-ii_k8vd.128.webp">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <meta name="description" content="En esta pagina accederemos a los juegos adquiridos de cada plataforma">
     <meta name="keywords" content="Juegos, Plataformas, Steam, PLay Station, Epic Games, Origin, GOG, X Box, inicio, ofertas, gratis,">
     <title>Libreria</title>
@@ -26,67 +27,98 @@
     <div class="containerLibreria">
         <div class="libreriaSteam">
             <img src="../img/steam-logo.png" alt="steam">
-            <select name="steam" id="steam">
-                <option value="half-life">Half-Life</option>
-                <option value="cs">Counter-Strike</option>
-                <option value="portal">Portal 2</option>
-            </select>
+            <div class="dropdown row align-self-center">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Steam
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://store.steampowered.com/?l=spanish">Half-Life</a></li>
+                  <li><a class="dropdown-item" href="https://store.steampowered.com/?l=spanish">Counter-Strike</a></li>
+                  <li><a class="dropdown-item" href="https://store.steampowered.com/?l=spanish">Portal 2</a></li>
+                </ul>
+              </div>
         </div>
         <div class="libreriaPlay">
-            <select name="playStation" id="playStation">
-                <option value="horizon">Horizon Zero Dawn</option>
-                <option value="gow">God of War</option>
-                <option value="spiderMan">Spider-Man</option>
-            </select>
+            <div class="dropdown row align-self-center">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Play Station
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://www.playstation.com/es-ar/">Horizon Zero Dawn</a></li>
+                  <li><a class="dropdown-item" href="https://www.playstation.com/es-ar/">God of War</a></li>
+                  <li><a class="dropdown-item" href="https://www.playstation.com/es-ar/">Marvel's Spider-Man</a></li>
+                </ul>
+            </div>
             <img src="../img/playstation-logo.png" alt="playstation">
         </div>
         <div class="libreriaOrigin">
             <img src="../img/origin-logo.png" alt="origin">
-            <select name="origin" id="origin">
-                <option value="pvz">Plantas Vs. Zombies</option>
-                <option value="massEffect">Mass Effect</option>
-                <option value="alice">Alice: Madness returns</option>
-            </select>
+            <div class="dropdown row align-self-center">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Origin
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://www.origin.com/arg/es-es/store">Plantas Vs. Zombies</a></li>
+                  <li><a class="dropdown-item" href="https://www.origin.com/arg/es-es/store">Mass Effect</a></li>
+                  <li><a class="dropdown-item" href="https://www.origin.com/arg/es-es/store">Alice: Madness returns</a></li>
+                </ul>
+            </div>
         </div>
         <div class="libreriaGog">
-            <select name="gog" id="gog">
-                <option value="witcher">The Witcher</option>
-                <option value="throneBreacker">Throne Breacker</option>
-                <option value="cyberpunk">Cyberpunk 2077</option>
-            </select>
+            <div class="dropdown row align-self-center">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  GoG
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://www.gog.com/">The Witcher</a></li>
+                  <li><a class="dropdown-item" href="https://www.gog.com/">Throne Breacker</a></li>
+                  <li><a class="dropdown-item" href="https://www.gog.com/">Cyberpunk 2077</a></li>
+                </ul>
+            </div>
             <img src="../img/gog-logo.png" alt="gog">
         </div>
         <div class="libreriaEpicgames">
             <img src="../img/epicgames-logo.png" alt="epicgames">
-            <select name="epicgames" id="epicgames">
-                <option value="fortnite">Fortnite</option>
-                <option value="borderlands">Borderlands</option>
-                <option value="pathless">The Pathless</option>
-            </select>
+            <div class="dropdown row align-self-center">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Epic Games
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://www.epicgames.com/site/es-ES/home">Fortnite</a></li>
+                  <li><a class="dropdown-item" href="https://www.epicgames.com/site/es-ES/home">Borderlands</a></li>
+                  <li><a class="dropdown-item" href="https://www.epicgames.com/site/es-ES/home">The Pathless</a></li>
+                </ul>
+            </div>
         </div>
         <div class="libreriaXbox">
-            <select name="xbox" id="xbox">
-                <option value="halo">Halo</option>
-                <option value="forza">Forza Horizon 5</option>
-                <option value="cod">Call of Duty</option>
-            </select>
+            <div class="dropdown row align-self-center">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  X Box
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://www.xbox.com/es-AR">Halo</a></li>
+                  <li><a class="dropdown-item" href="https://www.xbox.com/es-AR">Forza Horizon 5</a></li>
+                  <li><a class="dropdown-item" href="https://www.xbox.com/es-AR">Call of Duty</a></li>
+                </ul>
+            </div>
             <img src="../img/Xbox_logo_2012_cropped.svg.png" alt="xbox">
         </div>
     </div> 
 </nav>
 <footer class="footerContainer"> 
     <div class="footerLinks">
-        <a class="footer" href="../pages/soporteTecnico.html">Soporte tecnico</a>
-        <a class="footer" href="../pages/contacto.html">Contacto</a>
-        <a class="footer" href="../pages/reembolsos.html">Reembolsos</a>
-        <a class="footer" href="../pages/trabajaConNosotros.html">Trabaja con nosotros</a>
+        <a class="footer" href="../pages/login.html">Soporte tecnico</a>
+        <a class="footer" href="../pages/login.html">Contacto</a>
+        <a class="footer" href="../pages/login.html">Reembolsos</a>
+        <a class="footer" href="../pages/login.html">Trabaja con nosotros</a>
     </div>
     <div class="footerConta">
-        <a class="footerA" href="https://twitter.com/?lang=es"><img src="../img/footer1.png" alt="twitter"></a>
-        <a class="footerA" href="https://es-la.facebook.com/"><img src="../img/footer2.png" alt="facebook"></a>
-        <a class="footerA" href="https://www.instagram.com/"><img src="../img/footer3.png" alt="instagram"></a>
-        <a class="footerA" href="https://web.whatsapp.com/"><img src="../img/footer4.png" alt="whatsapp"></a>
+        <a class="footerA" href="https://twitter.com/?lang=es"><img src="../img/twitter.png" alt="twitter"></a>
+        <a class="footerA" href="https://es-la.facebook.com/"><img src="../img/facebook.png" alt="facebook"></a>
+        <a class="footerA" href="https://www.instagram.com/"><img src="../img/instagram.png" alt="instagram"></a>
+        <a class="footerA" href="https://web.whatsapp.com/"><img src="../img/whatsapp.png" alt="whatsapp"></a>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </footer>   
 </body>
 </html>
