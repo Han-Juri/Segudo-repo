@@ -51,6 +51,7 @@ body.bg{
     background-color: black;
     border-radius: 45%;
     transition: all 1s;
+    position: absolute;
 }
 .barraUsuario input:hover{
     color: black;
@@ -255,6 +256,10 @@ td{
     .barraUsuario a{
         display: grid;
         justify-content: center;
+    }
+    .barraUsuario a input{
+        justify-self: center;
+        align-self: center;
     }
     .carouselContainer{
         max-width: 400px;
