@@ -208,12 +208,12 @@ td{
 /* Ofertas */
 
 .bofertas{
-    background-image: url(../img/ofertas-background.png);
+    background-image: url(../img/libreriaFondos/fondo-libreria.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .h1ofe{
-    color: white;
+    color: black;
     font-size: 100px;
     text-align: center;
 }
@@ -303,6 +303,9 @@ td{
     }
     .listaRespo{
         display: inline;
+    }
+    .h1ofe{
+    color: red;
     }
 }
 
